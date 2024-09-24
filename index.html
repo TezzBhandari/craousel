@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel Slider</title>
+    <link rel="stylesheet" href="./src/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="craousel flex items-center justify-center">
+      <!-- Additional required wrapper -->
+      <div class="craousel_inner flex">
+        <!-- Slides -->
+        <div class="craousel_slide">
+          <div class="slide_header">
+            <span class="quotation">
+              <i class="fa-solid fa-quote-left"></i>
+            </span>
+            <h2 class="capitalize">Execptional sushi experience1</h2>
+          </div>
+          <div class="slide_description flex flex-col gap-1">
+            <p>
+              "Omakase exceeded all my expectations. The attention to detail in
+              every dish was impeccable, and the flavors were simply
+              outstanding.
+            </p>
+            <div class="rating flex justify-between">
+              <span class="stars">★★★★★</span>
+              <span>— Emily R.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="craousel_slide active-slide">
+          <div class="slide_header">
+            <span class="quotation">
+              <i class="fa-solid fa-quote-left"></i>
+            </span>
+            <h2 class="capitalize">This sushi is good2</h2>
+          </div>
+          <div class="slide_description flex flex-col gap-1">
+            <p>
+              "Omakase exceeded all my expectations. The attention to detail in
+              every dish was impeccable, and the flavors were simply
+              outstanding.
+            </p>
+            <div class="rating flex justify-between">
+              <span class="stars">★★★★★</span>
+              <span>— Emily R.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="craousel_slide">
+          <div class="slide_header">
+            <span class="quotation">
+              <i class="fa-solid fa-quote-left"></i>
+            </span>
+            <h2 class="capitalize">wow was the experience3</h2>
+          </div>
+          <div class="slide_description flex flex-col gap-1">
+            <p>
+              "Omakase exceeded all my expectations. The attention to detail in
+              every dish was impeccable, and the flavors were simply
+              outstanding.
+            </p>
+            <div class="rating flex justify-between">
+              <span class="stars">★★★★★</span>
+              <span>— Emily R.</span>
+            </div>
+          </div>
+        </div>
+        <div class="craousel_slide">
+          <div class="slide_header">
+            <span class="quotation">
+              <i class="fa-solid fa-quote-left"></i>
+            </span>
+            <h2 class="capitalize">wow was the experience4</h2>
+          </div>
+          <div class="slide_description flex flex-col gap-1">
+            <p>
+              "Omakase exceeded all my expectations. The attention to detail in
+              every dish was impeccable, and the flavors were simply
+              outstanding.
+            </p>
+            <div class="rating flex justify-between">
+              <span class="stars">★★★★★</span>
+              <span>— Emily R.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <!-- <div class="swiper-pagination"></div> -->
+
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div>
+      <div id="next" class="swiper-button-next"></div> -->
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
